@@ -180,7 +180,7 @@
             <p>RESTAURANT</p>
             <br>
             <!-- BUTTON MAKER -->
-            
+            <a href="#reservation" class="btn">Book a Reservation</a>
         </div>
     </header>
 </section>
@@ -246,8 +246,59 @@
         </p>
     </div>
 </section>
+<!-- RESERVATION SECTION: Button Maker + Content Creator -->
+<section class="dine" id="reservation">
+    <h2>Ready to Dine?</h2>
+    <p>
+        Experience the bold, balanced flavors of Filipino cuisine at Timplados — where every meal is a celebration of heritage and heart.
+        <br><br>
+        Use the form below to book your table. For same-day or group reservations, call <strong>(0917) 123-4567</strong>.
+    </p>
 
+    <!-- BUTTON MAKER -->
+    <form action="#success">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="tel" placeholder="Contact Number" required>
+        <input type="date" placeholder="Date" required>
+            <select required>
+                <option disabled selected>Select Time</option>
+                <option>10:00 AM</option>
+                <option>11:00 AM</option>
+                <option>12:00 PM</option>
+                <option>1:00 PM</option>
+                <option>2:00 PM</option>
+                <option>3:00 PM</option>
+                <option>4:00 PM</option>
+                <option>5:00 PM</option>
+                <option>6:00 PM</option>
+                <option>7:00 PM</option>
+                <option>8:00 PM</option>
+            </select>
+        <input type="number" placeholder="Number of Guests" required>
+        <button type="submit">Book a Reservation</button>
+    </form>
 
+    <!-- BUTTON MAKER -->
+    <div id="success" class="popup-modal">
+        <div class="popup-content">
+            <h3>✅ Reservation Confirmed</h3>
+            <p>Thank you for your reservation. A confirmation email with additional details will be sent to you shortly.</p>
+            <a href="#" class="close-button">Close</a>
+        </div>
+    </div>
+
+    <!-- CONTENT CREATOR -->
+    <div class="socials">
+        <a href="#"><b>Instagram / X:</b> @timplados_ph</a>
+        <a href="#"><b>Facebook:</b> Timplados Restaurant</a>
+    </div>
+</section>
+
+<!-- FOOTER: Header person -->
+<footer>
+    &copy; 2025 Timplados Restaurant. All rights reserved.
+</footer>
 
 </body>
 </html>
